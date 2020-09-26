@@ -1,14 +1,14 @@
 GoodDollar Bounty
 Description
-GoodDollar has recently launched its basic income protocol (you can learn more via our White Paper and Lite Paper published here). This bug bounty challenge serves to stress-test the GoodDollar smart contracts.
+GoodDollar has recently launched its basic income protocol (you can learn more via our [White Paper](https://whitepaper.gooddollar.org) and [Lite Paper](https://litepaper.gooddollar.org/) published within [GoodDollar](https://gooddollar.org/)). This bug bounty challenge serves to stress-test the GoodDollar smart contracts.
 Successful submissions are at the discretion of the GoodDollar CTO, and will require evidence and documentation of any hack
 
 Information
 GoodDollar is a people-powered framework to generate, finance, and distribute global basic income via the GoodDollar token (“G$ coin”). Its goal is to provide a baseline standard of living and reduce wealth inequality through the creation of a universal basic income (UBI).
 
-GoodDollar - gooddollar.org,
-White Paper - https://whitepaper.gooddollar.org/
-LitePaper - https://litepaper.gooddollar.org/
+GoodDollar - https://gooddollar.org/,
+White Paper - https://whitepaper.gooddollar.org/,
+LitePaper - https://litepaper.gooddollar.org/,
 
 Scope
 The Gooddollar Bug Bounty is limited to vulnerabilities affecting the gooddollar smart contracts:
