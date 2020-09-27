@@ -1,6 +1,7 @@
-**GoodDollar Bounty**
+#### **GoodDollar Bounty**
 
 **Description**
+
 [GoodDollar](https://gooddollar.org) has recently launched its basic income protocol (learn more via our [White Paper](https://whitepaper.gooddollar.org) and [Lite Paper](https://litepaper.gooddollar.org) published within [GoodDollar.org](https://gooddollar.org)). This bug bounty challenge serves to stress-test the GoodDollar smart contracts.
 Successful submissions are at the discretion of the GoodDollar CTO, and will require evidence and documentation of any hack, modification, improvement or contribution claim(s).
 
@@ -13,8 +14,8 @@ Successful submissions are at the discretion of the GoodDollar CTO, and will req
 
 **Scope**
 The *Gooddollar Bug Bounty* is limited to vulnerabilities affecting the GoodDollar smart contracts:
-DAO Contracts
-Staking model contracts
+* DAO Contracts
+* Staking model contracts
 
 **Awards**
 The severity of bugs will be assessed under the *CVSS Risk Rating*.
@@ -48,10 +49,10 @@ Not submit a vulnerability caused by an underlying issue that is the same as an 
 All reward decisions, including eligibility for, amounts of rewards and the manner in which such rewards will be paid, are made at our sole discretion.
 
 **Staking Model Contracts Docs**
-Terms
-Architecture diagram
-Money flow description
-Contracts & API
+-Terms
+-Architecture diagram
+-Money flow description
+-Contracts & API
 
 **TERMS**
 **UBI Supporters**
@@ -69,11 +70,11 @@ An existing algorithmic autonomous interest bearing protocol developed by third 
 An automatic pricing formula which balances supply and demand for the Smart Token while holding a constant ratio between a Smart Token’s total value (market cap) and its connector token balances (see more [here](https://support.bancor.network/hc/en-us/articles/360000503372-How-does-automatic-pricing-and-market-making-work-).
 
 **Claimers**
-Ysers of the [GoodDollar](https://gooddollar.org) wallet who claim daily GoodDollar Token(G$).
+Users of the [GoodDollar](https://gooddollar.org) wallet who claim daily GoodDollar Token(G$).
 
 **GoodDAO**
 Decentralized and autonomous entity, eventually owned 100% by the community of GoodDollar users.
-    - *Controls the Goodreserve*
+   - Controls the Goodreserve 
 
 **GoodDollar Token (G$)**
 A digital currency, built initially on ETH blockchain technology and comply with ERC20 standard, with a reserve token attached to it - Initially CDAI.
@@ -120,8 +121,9 @@ The DAO and Token are deployed on both networks.
 * DAO Contracts
 
 **Core Contracts**
-**Contract** | **Mainnet** | **Fuse** | **Source code**
--------------|-------------|----------|----------------
+
+Contract | Mainnet | Fuse | Source Code
+---------|---------|------|------------
 GoodDollar ERC20 | 0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B | 0x495d133B938596C9984d462F007B676bDc57eCEC | GoodDollar.sol
 Identity | 0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b | 0xFa8d865A962ca8456dF331D78806152d3aC5B84F | Identity.sol
 GoodStaking | 0xEa12bB3917cf6aE2FDE97cE4756177703426d41F | | SimpleDAIStaking.sol
@@ -349,4 +351,4 @@ Avatar | 0x1ecFD1afb601C406fF0e13c3485f2d75699b6817 | 0xf96dADc6D71113F6500e9759
 Reputation | 0xCb4a6aF3b15D64E8f50B3cea54c4f481d9E434C1 | 0x0be7C592374EE0bD0CcBFC76Be758a138BcaEc6E | Reputation.sol
 SchemeRegistrar | 0x098148534aC15A44CFF52387bA81Ed929589eCAf | 0x12F706FaafCBf8093282Dba0c40eD0D4Eb5CAF54 | SchemeRegistrar.sol
 AbsoluteVote | 0xf6b5F7a885CBc57d739aDBEe76E52A70Bc04D795 | 0xf6b5F7a885CBc57d739aDBEe76E52A70Bc04D795 | AbsoluteVote.sol
-UpgradeScheme | 0xF9B357d83BDAD6881feb09d909095872B93203d0 | 0x653c67Be5b3739708e84B61641253822405d78D8 | UpgradeScheme.sol
+UpgradeScheme | 0xF9B357d83BDAD6881feb09d909095872B93203d0 | 0x653c67Be5b3739708e84B61641253822405d78D8 | UpgradeScheme.so
