@@ -7,9 +7,10 @@ Successful submissions are at the discretion of the GoodDollar CTO, and will req
 ##### **Information**
 [GoodDollar](https://gooddollar.org) is a people-powered framework to generate, finance, and distribute global basic income via the GoodDollar token (“G$ coin”). Its goal is to provide a baseline standard of living and reduce wealth inequality through the creation of a universal basic income (UBI).
 
-[GoodDollar](https://gooddollar.org) - https://gooddollar.org,
-[White Paper](https://whitepaper.gooddollar.org) - https://whitepaper.gooddollar.org,
-[Lite Paper](https://litepaper.gooddollar.org) - https://litepaper.gooddollar.org,
+|[GoodDollar](https://gooddollar.org) - https://gooddollar.org|
+|---------------------------------------------------------------|
+|[White Paper](https://whitepaper.gooddollar.org) - https://whitepaper.gooddollar.org |
+|[Lite Paper](https://litepaper.gooddollar.org) - https://litepaper.gooddollar.org |
 
 ##### **Scope**
 The *Gooddollar Bug Bounty* is limited to vulnerabilities affecting the GoodDollar smart contracts:
