@@ -1,144 +1,138 @@
-GoodDollar Bounty
-Description
-GoodDollar has recently launched its basic income protocol (you can learn more via our White Paper and Lite Paper published here). This bug bounty challenge serves to stress-test the GoodDollar smart contracts.
-Successful submissions are at the discretion of the GoodDollar CTO, and will require evidence and documentation of any hack
+# **GoodDollar Bounty**
 
-Information
-GoodDollar is a people-powered framework to generate, finance, and distribute global basic income via the GoodDollar token (“G$ coin”). Its goal is to provide a baseline standard of living and reduce wealth inequality through the creation of a universal basic income (UBI).
+##### **Description**
+[GoodDollar](https://gooddollar.org) has recently launched its basic income protocol (learn more via our [White Paper](https://whitepaper.gooddollar.org) and [Lite Paper](https://litepaper.gooddollar.org) published within [GoodDollar.org](https://gooddollar.org)). This bug bounty challenge serves to stress-test the GoodDollar smart contracts.
+Successful submissions are at the discretion of the GoodDollar CTO, and will require evidence and documentation of any hack, modification, improvement or contribution claim(s).
 
-GoodDollar - gooddollar.org,
-White Paper - https://whitepaper.gooddollar.org/
-LitePaper - https://litepaper.gooddollar.org/
+##### **Information**
+[GoodDollar](https://gooddollar.org) is a people-powered framework to generate, finance, and distribute global basic income via the GoodDollar token (“G$ coin”). Its goal is to provide a baseline standard of living and reduce wealth inequality through the creation of a universal basic income (UBI).
 
-Scope
-The Gooddollar Bug Bounty is limited to vulnerabilities affecting the gooddollar smart contracts:
-DAO Contracts
-Staking model contracts
+|[GoodDollar](https://gooddollar.org) - https://gooddollar.org|
+|---------------------------------------------------------------|
+|[White Paper](https://whitepaper.gooddollar.org) - https://whitepaper.gooddollar.org |
+|[Lite Paper](https://litepaper.gooddollar.org) - https://litepaper.gooddollar.org |
 
-Awards
-The severity of bugs will be assessed under the CVSS Risk Rating.
+##### **Scope**
+The *Gooddollar Bug Bounty* is limited to vulnerabilities affecting the GoodDollar smart contracts:
+* DAO Contracts
+* Staking model contracts
 
-Critical (9.0–10.0): Up to $10,000
-High (7.0–8.9): Up to $5,400
-Medium (4.0–6.9): Up to $2,800
-Low (0.1–3.9): Up to $1,000
+##### **Awards**
+The severity of bugs will be assessed under the *CVSS Risk Rating*.
+- Critical (9.0–10.0): Up to $10,000
+- High (7.0–8.9): Up to $5,400
+- Medium (4.0–6.9): Up to $2,800
+- Low (0.1–3.9): Up to $1,000
 
-Disclosure Requirements
+##### **Disclosure Requirements**
 Any vulnerability or bug discovered must be reported only to the following email: Hadar@gooddollar.org
-
 The bug must not be disclosed publicly or to any other person, entity or email address other than Hadar@gooddollar.org
-
-Please include as much detail about the vulnerability as possible including:
-
-Conditions on which reproducing the bug is contingent.
-Steps needed to reproduce the bug or, preferably, a proof of concept.
-Implications of the vulnerability being abused.
+##### Please include as much detail about the vulnerability as possible including:
+- Conditions on which reproducing the bug is contingent.
+- Steps needed to reproduce the bug or, preferably, a proof of concept.
+- Implications of the vulnerability being abused.
 Any bug reporter who reports a previously unreported bug that results in a change to the code or a configuration change and who keeps the vulnerability confidential until it has been resolved by our engineers will be recognized publicly for their contribution, if agreed.
-Eligibility
-To be eligible for a reward in the Gooddollar Bounty, you must:
 
+##### **Eligibility**
+- **To be eligible for a reward in the Gooddollar Bounty, you must**:
 Discover a previously unreported, non-public vulnerability that would result in a loss of or a lock of any token on Gooddollar (but not on any third party platform interacting with Gooddollar) and that is within the Scope mentioned above.
 Provide sufficient information to enable our engineers to reproduce and fix the vulnerability.
 Make a good faith effort to avoid privacy violations, destruction of data, interruption or degradation of Gooddollar.
 Not submit a vulnerability caused by an underlying issue that is the same as an issue on which a reward has been paid under the bounty program.
-Other Terms
-All reward decisions, including eligibility for and amounts of the rewards and the manner in which such rewards will be paid, are made at our sole discretion.
 
-Staking Model Contracts Docs
-Terms
-Architecture diagram
-Money flow description
-Contracts & API
-Terms
-UBI Supporters
-People who are staking their crypto to Goodstaking, willing to accept G$ instead of the originally used crypto
+##### **Other Terms**
+All reward decisions, including eligibility for, amounts of rewards and the manner in which such rewards will be paid, are made at our sole discretion.
 
-GoodStaking Smart Contract
-a smart contract who: (a) receives cryptocurrencies from the Stakers and sends it to the third party protocol; (b) issue the GoodStaking record to the Stakers and accept the transactions from the stakers and sends them the principle deposited; © receive the Interest out directly from the thrid party protocols and automatically transfer it to the Reserve.
+##### **Staking Model Contracts Docs**
+* Terms
+* Architecture diagram
+* Money flow description
+* Contracts & API
 
-For now - the interest can only be donated to the reserve, and no G$ is minted in returen
+#### **TERMS**
+##### **UBI Supporters**
+People who are staking their crypto to Goodstaking are willing to accept G$ instead of the originally spent crypto currency.
 
-Third party protocol
-an existing algorithmic autonomous interest bearing protocol developed by third parties where Stakers can deposit cryptocurrencies and earn interest.
+##### **GoodStaking Smart Contract**
+A smart contract who: (a) receives cryptocurrencies from the Stakers and sends it to the third party protocol; (b) issue the GoodStaking record to the Stakers and accept the transactions from the stakers and sends them the principle deposited; © receive the Interest out directly from the thrid party protocols and automatically transfer it to the Reserve.
+###### ** For now - *the interest can only be donated to the reserve, and no G$ is minted in return* **
+##### **Third Party Protocol**
+An existing algorithmic autonomous interest bearing protocol developed by third parties where Stakers can deposit cryptocurrencies and earn interest.
 
-Bancor™ Formula
-An automatic pricing formula which balances supply and demand for the Smart Token while holding a constant ratio between a Smart Token’s total value (market cap) and its connector token balances
-(see more here).
+##### **Bancor™ Formula**
+An automatic pricing formula which balances supply and demand for the Smart Token while holding a constant ratio between a Smart Token’s total value (market cap) and its connector token balances (see more [here](https://support.bancor.network/hc/en-us/articles/360000503372-How-does-automatic-pricing-and-market-making-work-).
 
-Claimers
-users of the GoodDollar wallet who claim daily GoodDollar Token(G$).
+##### **Claimers**
+Users of the [GoodDollar](https://gooddollar.org) wallet who claim daily GoodDollar Token(G$).
 
-GoodDAO
-decentralized and autonomous entity, eventually owned 100% by the community of GoodDollar users.
+##### **GoodDAO**
+Decentralized and autonomous entity, eventually owned 100% by the community of GoodDollar users.
+   - Controls the Goodreserve 
 
-Controls the Goodreserve
-GoodDollar Token (G$)
-a digital currency, built initially on ETH blockchain technology and comply with ERC20 standard, with a reserve token attached to it - Initially CDAI.
+##### **GoodDollar Token *(G$)***
+A digital currency, built initially on ETH blockchain technology and comply with ERC20 standard, with a reserve token attached to it - Initially CDAI.
 
-Reserve
-a smart contract with valuable foreign (not G$) cryptocurrencies in it. Users of the Gooddollar can buy or sell Gooddollar by depositing or withdrawing cryptocurrencies directly into or from the reserve (based on Bancor Formula, see above)
+##### **Reserve**
+A smart contract with valuable foreign (not G$) cryptocurrencies in it. Users of the Gooddollar can buy or sell Gooddollar by depositing or withdrawing cryptocurrencies directly into or from the reserve (based on Bancor Formula, see above)
 
-UBI scheme
+##### **UBI scheme**
 A smart contract that collects the total minted Gooddollar, and distributed between all claimers that day.
 
-Architecture Diagram
+##### **Architecture Diagram**
+![Architecture Diagram](https://lh4.googleusercontent.com/4idyu8euLm3J7Yojk4GJA0gmp6JQHn4PkhTJvjGkkZFZ2ksDwNq7R0S87jUGDbCPcCzSKjaybmiOOKYawhUisGxsFsPyvckpCorY775mAfMSUTg4Rz9Zu3p-LZ8mo6jp9MrDuIQA)
 
+##### **Money flow in the GoodDollar ecosystem**
+Supporter stakes his crypto currency to GoodStaking
 
-Money flow in the GoodDollar ecosystem
-Supporter stake his crypto currency to GoodStaking
-
-For now - can only be DAI
+##### *For now - can only be DAI*
 Goodstaking deposits the crypto currency to a third party DEFI protocol
 
-At the moment Compound
+##### *At the moment Compound*
 The third paty issue a staking Token (CDAI)
+- *Goodstaking* issues a non transferable record to the staking wallet. (supporter can withdraw at anytime)
+- *FundManager(GoodDao)* triggers a daily request to GoodStaking to collect earned interest
+- *Goodstaking* sends interest to good reserve
+- *FundManager(GoodDao)* triggers the Reserve to mint and send the new minted G$ to the FundManager (Interest + UBI)
+Interest is Sent back to the GoodStaking Contract
+ __*not active at the moment*__
 
-Goodstaking issues a non transferable record to the staking wallet. (supporter can withdraw at anytime)
+##### *FundManager* sends G$ to the UBI scheme smart contract via Fuse token bridge.
+The G$ in the UBI scheme is divided between all *“active”* whitelisted users. Each user needs to claim his share within the 24 hours window.
 
-FundManager(GoodDao) triggers a daily request to GoodStaking to collect earned interest
-
-Goodstaking sends interest to good reserve
-
-FundManager triggers the Reserve to mint and send the new minted G$ to the FundManager (Interest + UBI)
-
-The interest is Sent back to the GoodStaking
-- not active at the moment
-
-FundManager send G$ to the UBI scheme smart contract via Fuse token bridge
-
-The G$ in the UBI scheme is divided between all “active” whitelisted users. Each user need to claim his share in the 24 hours window.
-
-Contracts-&-API
+##### **Contracts-&-API**
 GoodDollar protocol is deployed both on Ethereum mainnet and on Fuse as a sidechain.
 Some contracts like the Reserve are only on mainnet and some contracts like the UBIScheme are only on the sidechain.
 The DAO and Token are deployed on both networks.
 
-Core Contracts
-Bridge Contracts
-DAO Contracts
-Core Contracts
-Contract	Mainnet	Fuse	Source code
-GoodDollar ERC20	0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B	0x495d133B938596C9984d462F007B676bDc57eCEC	GoodDollar.sol
-Identity	0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b	0xFa8d865A962ca8456dF331D78806152d3aC5B84F	Identity.sol
-GoodStaking	0xEa12bB3917cf6aE2FDE97cE4756177703426d41F		SimpleDAIStaking.sol
-GoodReserve	0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070		GoodReserveCDAI.sol
-GoodFundManager	0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad		GoodFundManager.sol
-GoodMarketMaker	0xEDbE438Cd865992fDB72dd252E6055A71b02BE72		GoodMarketMaker.sol
-ContributionCalculation	0x8eEC64bb6807c0178f96277cCE6a334B4e565E5C		ContributionCalculation.sol
-UBIScheme		0xAACbaaB8571cbECEB46ba85B5981efDB8928545e	UBIScheme.sol
-FirstClaimPool		0x18BcdF79A724648bF34eb06701be81bD072A2384	FirstClaimPool.sol
-AdminWallet		0x9F75dAcB77419b87f568d417eBc84346e134144E	FirstClaimPool.sol
-OneTimePayments		0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4	OneTimePayments.sol
-GoodDollar ERC20
+* Core Contracts
+* Bridge Contracts
+* DAO Contracts
+
+##### **Core Contracts**
+Contract | Mainnet | Fuse | Source Code
+---------|---------|------|------------
+GoodDollar ERC20 | 0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B | 0x495d133B938596C9984d462F007B676bDc57eCEC | GoodDollar.sol
+Identity | 0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b | 0xFa8d865A962ca8456dF331D78806152d3aC5B84F | Identity.sol
+GoodStaking | 0xEa12bB3917cf6aE2FDE97cE4756177703426d41F | | SimpleDAIStaking.sol
+GoodReserve | 0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070 | | GoodReserveCDAI.sol
+GoodFundManager | 0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad | | GoodFundManager.sol
+GoodMarketMaker | 0xEDbE438Cd865992fDB72dd252E6055A71b02BE72 | |GoodMarketMaker.sol
+ContributionCalculation | 0x8eEC64bb6807c0178f96277cCE6a334B4e565E5C | | ContributionCalculation.sol
+UBIScheme | | 0xAACbaaB8571cbECEB46ba85B5981efDB8928545e |  UBIScheme.sol
+FirstClaimPool | | 0x18BcdF79A724648bF34eb06701be81bD072A2384 | FirstClaimPool.sol
+AdminWallet | | 0x9F75dAcB77419b87f568d417eBc84346e134144E | FirstClaimPool.sol
+OneTimePayments | | 0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4 | OneTimePayments.sol
+
+##### **GoodDollar ERC20**
 The GoodDollar token follows the erc20 standard and also supports erc677.
 
-Identity
+##### **Identity**
 The identity contract controls which addresses are whitelisted to “Claim” UBI.
 
-Face Verification
+##### **Face Verification**
 Currently the GoodDollar Foundation is whitelisting users based on user prooving he signed up with a live and unique face. Since the user facial details are anonymized in order to allow the user to create a new account in case he is unable to recover his wallet, facial details are deleted after authenticationPeriod and users are required to perform face verification again every authenticationPeriod days.
 
-Social Profile
+##### **Social Profile**
 Each address is linked to the user public profile as created in the wallet. The DID is the node id in the public p2p GunDB database. Mappings from wallet address to DID are held in addrTODID
 
 /* 
@@ -160,7 +154,7 @@ uint256 public authenticationPeriod
 
 mapping(address => string) public addrToDID;
 
-GoodStaking
+##### **GoodStaking**
 UBI Supporters can stake crypto which is then invested in DEFI protocols.
 The FundManager has permissions to collect gained interest from this contract.
 
@@ -177,7 +171,7 @@ function stakeDAI(uint256 _amount) public whenNotPaused
  */
 function withdrawStake() public
 
-GoodReserve
+##### **GoodReserve**
 The reserve mints G$ based on interest transfered from the FundManager, only the FundManager can trigger minting.
 The reserve also acts as the GoodDollar liquidity pool and AMM (Automatic Market Maker) and exposes methods to buy and sell G$s.
 
@@ -219,7 +213,8 @@ function sell(
  * @return price of GD
  */
 function currentPrice(ERC20 _token) public view returns (uint256)
-GoodFundManager
+
+##### **GoodFundManager**
 Has permissions to collect interest from the GoodStaking contract and permissions to tell GoodReserve to mint.
 Anyone can trigger the collection and minting process
 
@@ -241,9 +236,10 @@ function transferInterest(StakingContract _staking)
     requireActive
     reserveHasInitialized
     requireDAOContract(address(_staking))
-UBIScheme
+
+##### **UBIScheme**
 Holds all the G$s that were transfered via bridge from the FundManager.
-The pool of G$s is divided daily by the amount of current active users. Each active user can then “claim” his quota. If a user fails to claim his quota it becomes part of the next day UBI pool.
+The pool of G$s is divided daily by the amount of current active users. Each active user can then “claim” his quota. If a user fails to "claim" his quota it becomes part of the next day UBI pool.
 
 /**
  * @dev Checks the amount which the sender address is eligible to claim for,
@@ -279,9 +275,10 @@ function fish(address _account) public requireActive returns (bool)
  * @return A bool indicating if all the UBIs were fished
  */
 function fishMulti(address[] memory _accounts)
-OneTimePayments
+
+##### **OneTimePayments**
 Payments on the GoodDollar wallet are done via payment links. G$s are held in escrow and the recipient can retrieve the funds if he has the key. While the money is in escrow the sender can choose to cancel the payment and retrieve the funds.
-Based on Celo’s payments contract
+Based on [Celo’s](https://github.com/celo) payments contract
 
 /* 
 * @dev ERC677 on token transfer function. When transferAndCall is called on this contract,
@@ -309,32 +306,36 @@ function withdraw(address paymentId, bytes memory signature) public onlyRegister
  * @param paymentId The paymentId of the payment to cancelæ
  */
 function cancel(address paymentId) public
-GoodMarketMaker
+
+##### **GoodMarketMaker**
 Helper contract for the GoodReserve.
 
-ContributionCalculation
+##### **ContributionCalculation**
 Helper contract for calculating the exit contribution (ie when selling G$ back to the reserve)
 
-FirstClaimPool
+##### **FirstClaimPool**
 Helper contract for UBIScheme. Manually funded by the Foundation
 to give 1G$ for “inactive” users when they claim. Since a new user (inactive) becomes active and eligible to claim UBI only in the next UBI epoch. So for new users not go empty handed on their first claim we give out a 1G$.
 
-AdminWallet
+##### **AdminWallet**
 Helper contract for our backend servers to whitelist users and to fill their Fuse network gas.
 
-Token Bridge Contracts
-Bridge contracts were developed by Fuse
+##### **Token Bridge Contracts**
+Bridge contracts were developed by [Fuse](https://fuse.io)
 
-Contract	Mainnet	Fuse	Source Code
-ForeignBridge (mainnet -> fuse)	0x17B09b22823F00BB9b8ee2d4632E332cadC29458		ForeignBridgeErcToErc.sol
-HomeBridge (fuse -> mainnet)		0xe24957CB0f0001A03314C72E6EBC331436e2f7F6	HomeBridgeErcToErc.sol
-DAO Contracts
-DAO contracts were developed by DAOStack
+Contract | Mainnet | Fuse | Source Code
+---------|---------|------|------------
+ForeignBridge (mainnet -> fuse) | 0x17B09b22823F00BB9b8ee2d4632E332cadC29458 | | ForeignBridgeErcToErc.sol
+HomeBridge (fuse -> mainnet) | | 0xe24957CB0f0001A03314C72E6EBC331436e2f7F6 | HomeBridgeErcToErc.sol
 
-Contract	Mainnet	Fuse	Source Code
-Controller	0x95C0d9dCEA1E243ED696F34CAc5e6559C3c128a3	0xBcE053b99e22158f8B62f4DBFbEdE1f936b2D4e4	Controller.sol
-Avatar	0x1ecFD1afb601C406fF0e13c3485f2d75699b6817	0xf96dADc6D71113F6500e97590760C924dA1eF70e	Avatar.sol
-Reputation	0xCb4a6aF3b15D64E8f50B3cea54c4f481d9E434C1	0x0be7C592374EE0bD0CcBFC76Be758a138BcaEc6E	Reputation.sol
-SchemeRegistrar	0x098148534aC15A44CFF52387bA81Ed929589eCAf	0x12F706FaafCBf8093282Dba0c40eD0D4Eb5CAF54	SchemeRegistrar.sol
-AbsoluteVote	0xf6b5F7a885CBc57d739aDBEe76E52A70Bc04D795	0xf6b5F7a885CBc57d739aDBEe76E52A70Bc04D795	AbsoluteVote.sol
-UpgradeScheme	0xF9B357d83BDAD6881feb09d909095872B93203d0	
+##### **DAO Contracts**
+DAO contracts were developed by [DAOStack](https://daostack.io)
+
+Contract | Mainnet | Fuse | Source Code
+---------|---------|------|------------
+Controller | 0x95C0d9dCEA1E243ED696F34CAc5e6559C3c128a3 | 0xBcE053b99e22158f8B62f4DBFbEdE1f936b2D4e4 | Controller.sol
+Avatar | 0x1ecFD1afb601C406fF0e13c3485f2d75699b6817 | 0xf96dADc6D71113F6500e97590760C924dA1eF70e | Avatar.sol
+Reputation | 0xCb4a6aF3b15D64E8f50B3cea54c4f481d9E434C1 | 0x0be7C592374EE0bD0CcBFC76Be758a138BcaEc6E | Reputation.sol
+SchemeRegistrar | 0x098148534aC15A44CFF52387bA81Ed929589eCAf | 0x12F706FaafCBf8093282Dba0c40eD0D4Eb5CAF54 | SchemeRegistrar.sol
+AbsoluteVote | 0xf6b5F7a885CBc57d739aDBEe76E52A70Bc04D795 | 0xf6b5F7a885CBc57d739aDBEe76E52A70Bc04D795 | AbsoluteVote.sol
+UpgradeScheme | 0xF9B357d83BDAD6881feb09d909095872B93203d0 | 0x653c67Be5b3739708e84B61641253822405d78D8 | UpgradeScheme.so
